@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignorar datasets pesados y archivos comprimidos
+data/
+dataset/
+*.zip
+*.rar
+*.tar.gz
+
+# Ignorar credenciales locales si las usas más adelante
+.env
+kaggle.json
