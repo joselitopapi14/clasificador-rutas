@@ -218,7 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Ignorar datasets pesados y archivos comprimidos
-data/
 dataset/
 *.zip
 *.rar
